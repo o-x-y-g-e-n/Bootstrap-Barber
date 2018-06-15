@@ -1,0 +1,237 @@
+.header-dark {
+  background:url(../../assets/img/mountain_bg.jpg) #444;
+  background-size:cover;
+  padding-bottom:80px;
+}
+
+@media (min-width:768px) {
+  .header-dark {
+    padding-bottom:120px;
+  }
+}
+
+.header-dark .navbar {
+  background:transparent;
+  padding-top:0;
+  padding-bottom:0;
+  color:#fff;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+}
+
+@media (min-width:768px) {
+  .header-dark .navbar {
+    padding-top:.75rem;
+    padding-bottom:.75rem;
+  }
+}
+
+.header-dark .navbar .navbar-brand {
+  font-weight:bold;
+  color:inherit;
+}
+
+.header-dark .navbar .navbar-brand:hover {
+  color:#f0f0f0;
+}
+
+.header-dark .navbar .navbar-collapse span {
+  margin-top:5px;
+}
+
+.header-dark .navbar .navbar-collapse span .login {
+  color:#d9d9d9;
+  margin-right:.5rem;
+  text-decoration:none;
+}
+
+.header-dark .navbar .navbar-collapse span .login:hover {
+  color:#fff;
+}
+
+.header-dark .navbar .navbar-toggler {
+  border-color:#747474;
+}
+
+.header-dark .navbar .navbar-toggler:hover, .header-dark .navbar-toggler:focus {
+  background:none;
+}
+
+.header-dark .navbar .navbar-toggler {
+  color:#eee;
+}
+
+.header-dark .navbar .navbar-collapse, .header-dark .navbar .form-inline {
+  border-color:#636363;
+}
+
+@media (min-width: 992px) {
+  .header-dark .navbar.navbar .navbar-nav .nav-link {
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+  }
+}
+
+.header-dark .navbar.navbar-dark .navbar-nav .nav-link {
+  color:#d9d9d9;
+}
+
+.header-dark .navbar.navbar-dark .navbar-nav .nav-link:focus, .header-dark .navbar.navbar-dark .navbar-nav .nav-link:hover {
+  color:#fcfeff !important;
+  background-color:transparent;
+}
+
+.header-dark .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top:-5px;
+  box-shadow:0 4px 8px rgba(0,0,0,.1);
+  background-color:#fff;
+  border-radius:2px;
+}
+
+.header-dark .navbar .dropdown-menu .dropdown-item:focus, .header-dark .navbar .dropdown-menu .dropdown-item {
+  line-height:2;
+  font-size:14px;
+  color:#37434d;
+}
+
+.header-dark .navbar .dropdown-menu .dropdown-item:focus, .header-dark .navbar .dropdown-menu .drodown-item:hover {
+  background:#ebeff1;
+}
+
+.header-dark .navbar .action-button, .header-dark .navbar .action-button:active {
+  background:#208f8f;
+  border-radius:20px;
+  font-size:inherit;
+  color:#fff;
+  box-shadow:none;
+  border:none;
+  text-shadow:none;
+  padding:.5rem .8rem;
+  transition:background-color 0.25s;
+}
+
+.header-dark .navbar .action-button:hover {
+  background:#269d9d;
+}
+
+.header-dark .navbar .form-inline label {
+  color:#ccc;
+}
+
+.header-dark .navbar .form-inline .search-field {
+  display:inline-block;
+  width:80%;
+  background:none;
+  border:none;
+  border-bottom:1px solid transparent;
+  border-radius:0;
+  color:#ccc;
+  box-shadow:none;
+  color:inherit;
+  transition:border-bottom-color 0.3s;
+}
+
+.header-dark .navbar .form-inline .search-field:focus {
+  border-bottom:1px solid #ccc;
+}
+
+.header-dark .hero {
+  margin-top:60px;
+}
+
+@media (min-width:768px) {
+  .header-dark .hero {
+    margin-top:20px;
+  }
+}
+
+.header-dark .hero h1 {
+  color:#fff;
+  font-family:'Bitter', serif;
+  font-size:40px;
+  margin-top:20px;
+  margin-bottom:80px;
+}
+
+@media (min-width:768px) {
+  .header-dark .hero h1 {
+    margin-bottom:50px;
+    line-height:1.5;
+  }
+}
+
+.header-dark .hero .embed-responsive iframe {
+  background-color:#666;
+}
+
+.myimage {
+  /*.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {    position:relative;*/
+  width:100%;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px;
+  margin-bottom:1.5rem;
+  text-align:center;
+  /*position:relative;*/
+  /*width:100%;*/
+  /*min-height:1px;*/
+  /*padding-right:15px;*/
+  /*padding-left:15px;*/
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  position:relative;
+  width:100%;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px;
+}
+
+.d-flex.justify-content-center.align-items-center.align-content-center.align-self-center.flex-nowrap.order-1.highlight-blue {
+  background-size:cover;
+}
+
+.d-flex.flex-row.flex-grow-0.flex-shrink-0.flex-fill.justify-content-center.align-items-center.align-content-center.align-self-center.flex-nowrap {
+  background-size:cover;
+}
+
+div {
+}
+
+.borderme {
+  /*padding:20px 35px;*/
+  border:1px solid #ffffff;
+}
+
+.borderme1 {
+  /*border:1px #ffffff;*/
+  /*max-width:50px;*/
+  padding:1px;
+  border:1px solid #e0e4ea;
+}
+
+.widthfix {
+  max-width:100px;
+}
+
+#myparallex {
+  padding:1px;
+  border:1px solid #f1f3f5;
+}
+
+.fulfill {
+  width:350px;
+}
+
+@media (min-width:768px ) {
+  .fulfill {
+    width:650px;
+  }
+}
+
+.coverme {
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
